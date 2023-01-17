@@ -4,7 +4,7 @@ $(document).ready(function () {
         const message = $("#chatbot-input").val();
         $.ajax({
             type: "POST",
-            url: "https://mellow-twilight-e8ee58.netlify.app/chatbot",
+            url: "https://comp4537-lab2-m4lb.onrender.com/chatbot",
             data: {
                 message: message,
             },
